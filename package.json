@@ -1,0 +1,29 @@
+{
+  "name": "xyz-util",
+  "version": "1.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "build:watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiangxingchen/xyz-util.git"
+  },
+  "author": "chen xiang <1447388624@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiangxingchen/xyz-util/issues"
+  },
+  "homepage": "https://github.com/xiangxingchen/xyz-util#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.9.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5"
+  }
+}

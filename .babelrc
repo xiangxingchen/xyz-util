@@ -1,0 +1,17 @@
+{
+    "presets": [
+        [
+            "@babel/env",
+            {
+                "targets": {
+                    "esmodules": true
+                },
+                "exclude": [
+                    "transform-async-to-generator",
+                    "transform-regenerator"
+                ],
+                "loose": true
+            }
+        ]
+    ]
+}
